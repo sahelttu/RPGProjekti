@@ -25,6 +25,11 @@ public class UnitStats : MonoBehaviour{
     public float Initiative;
     public float Ready = 50f;
 
+    public Ability[] activeAbilities;
+    public Ability[] abilityCollection;
+
+
+
     public enum ATBStates
     {
         START,
@@ -36,7 +41,7 @@ public class UnitStats : MonoBehaviour{
     };
 
     ATBStates currentState;
-
+/*
     void Awake()
     {
         unitEquipment = GetComponent<Equipment>();
@@ -86,7 +91,7 @@ public class UnitStats : MonoBehaviour{
             
         }
     }
-
+*/
 
 
     /*public void calculateNextActTurn(int Initiative)
