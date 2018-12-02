@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24a6131b74880844bb300253f983e01e, type: 3}
-  m_Name: Swipe
+  m_Name: Fireball
   m_EditorClassIdentifier: 
-  AbilityName: Swipe
-  AbilityDescription: Swipe at the target
-  AbilityIcon: {fileID: 21300000, guid: acc2706de8387ce4f814bf65ab2121d0, type: 3}
+  AbilityName: Fireball
+  AbilityDescription: Throw a fireball at your enemy.
+  AbilityIcon: {fileID: 21300000, guid: cd6834c8c48911f4489dc780a5303130, type: 3}
   AbilityTarget: 2
   abilityDamage: 50
-  manaCost: 0
+  manaCost: 5
   healthCost: 0
   cooldown: 0
   levelRequirement: 0

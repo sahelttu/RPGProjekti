@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d86d55144cfeaf74ca0a9888b02559a9, type: 3}
-  m_Name: Knight
+  m_Name: Warrior
   m_EditorClassIdentifier: 
-  jobName: Knight
-  jobDescription: Strong and armored.
+  jobName: 
+  jobDescription: 
   jobIcon: {fileID: 0}
-  HealthMaxMultip: 2
-  ManaMaxMultip: 1
-  StrengthMultip: 1.5
-  VitalityMultip: 2
-  AgilityMultip: 0.5
+  HealthMaxMultip: 0
+  ManaMaxMultip: 0
+  StrengthMultip: 0
+  VitalityMultip: 0
+  AgilityMultip: 0
   JobAbilities: []

@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24a6131b74880844bb300253f983e01e, type: 3}
-  m_Name: Swipe
+  m_Name: Bite
   m_EditorClassIdentifier: 
-  AbilityName: Swipe
-  AbilityDescription: Swipe at the target
-  AbilityIcon: {fileID: 21300000, guid: acc2706de8387ce4f814bf65ab2121d0, type: 3}
+  AbilityName: Bite
+  AbilityDescription: You bite your enemy.
+  AbilityIcon: {fileID: 21300000, guid: c0d246c96408fd743a727c7e4791a97f, type: 3}
   AbilityTarget: 2
-  abilityDamage: 50
+  abilityDamage: 0
   manaCost: 0
   healthCost: 0
   cooldown: 0

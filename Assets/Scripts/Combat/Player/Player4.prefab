@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 136087578903522166}
   - component: {fileID: 114219408827089564}
   - component: {fileID: 95876426223198088}
+  - component: {fileID: 114661507679561022}
   m_Layer: 0
   m_Name: Player4
   m_TagString: PlayerUnit
@@ -99,6 +100,20 @@ MonoBehaviour:
   dead: 0
   Initiative: 0
   Ready: 50
+  activeAbilities: []
+  abilityCollection: []
+--- !u!114 &114661507679561022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931352903374710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2148d077da2a93d47955a55f008ddc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedJob: {fileID: 0}
 --- !u!136 &136087578903522166
 CapsuleCollider:
   m_ObjectHideFlags: 1

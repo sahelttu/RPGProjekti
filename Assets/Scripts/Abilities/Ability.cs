@@ -9,8 +9,8 @@ public class Ability : AbilitySO {
     public abilityTarget AbilityTarget;
 
     public float abilityDamage;
-    public float manaPrice;
-    public float healthPrice;
+    public float manaCost;
+    public float healthCost;
     public float cooldown;
     public float levelRequirement;
 

@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82bdb6a77ae7ad34384249a9bb8e3bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnitName: Player11
+  UnitName: Player1
   HealthMAX: 10
   HealthCUR: 10
   ManaMAX: 5

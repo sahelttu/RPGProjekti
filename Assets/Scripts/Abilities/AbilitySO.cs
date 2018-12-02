@@ -8,5 +8,10 @@ public abstract class AbilitySO : ScriptableObject {
     public string AbilityDescription;
     public Sprite AbilityIcon;
 
+    public virtual void Cast()
+    {
+
+    }
+
 
 }

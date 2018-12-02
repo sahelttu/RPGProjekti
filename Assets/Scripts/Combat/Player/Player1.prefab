@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 114841597380421154}
   - component: {fileID: 136720055751856140}
   - component: {fileID: 114374237135649164}
+  - component: {fileID: 114350363737484754}
   - component: {fileID: 95890561196139576}
   m_Layer: 0
   m_Name: Player1
@@ -61,6 +62,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114350363737484754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778452149877584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2148d077da2a93d47955a55f008ddc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedJob: {fileID: 11400000, guid: 6ac0f2dc7770dec4caf3640747d73a3e, type: 2}
 --- !u!114 &114374237135649164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,20 +98,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UnitName: Player1
-  HealthMAX: 10
-  HealthCUR: 10
-  ManaMAX: 5
-  ManaCUR: 5
+  HealthMAX: 100
+  HealthCUR: 100
+  ManaMAX: 50
+  ManaCUR: 50
   Level: 1
   ExpCUR: 0
   ExpREQ: 10
-  Strength: 3
+  Strength: 10
   totalStrength: 0
-  Vitality: 4
+  Vitality: 10
   Agility: 10
   dead: 0
   Initiative: 0
   Ready: 50
+  activeAbilities: []
+  abilityCollection: []
 --- !u!136 &136720055751856140
 CapsuleCollider:
   m_ObjectHideFlags: 1
