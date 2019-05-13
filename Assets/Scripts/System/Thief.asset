@@ -4,19 +4,22 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d86d55144cfeaf74ca0a9888b02559a9, type: 3}
-  m_Name: Warrior
+  m_Name: Thief
   m_EditorClassIdentifier: 
-  jobName: 
+  jobName: Thief
   jobDescription: 
   jobIcon: {fileID: 0}
-  HealthMaxMultip: 0
-  ManaMaxMultip: 0
-  StrengthMultip: 0
-  VitalityMultip: 0
-  AgilityMultip: 0
+  JobLV: 0
+  JobEXP: 0
+  JobHP: 0
+  JobMP: 0
+  JobSTR: 0.25
+  JobVIT: 0.75
+  JobAGI: 2
   JobAbilities: []

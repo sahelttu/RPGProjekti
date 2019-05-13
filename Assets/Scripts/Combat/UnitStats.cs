@@ -25,16 +25,7 @@ public class UnitStats : MonoBehaviour{
     public float Agility; //Hahmon vuoro
     public float totalAgility; //Agility + kaikki bonukset ja kertoimet
 
-    public bool dead = false;
-
-    public float Initiative;
-    public float Ready = 50f;
-
-    public List<Ability> AbilityBar = new List<Ability>();
-    public List<Ability> AbilityCollection = new List<Ability>();
-
-
-
+    public bool KO = false;
     public enum ATBStates
     {
         START,
@@ -51,29 +42,6 @@ public class UnitStats : MonoBehaviour{
     {
         unitEquipment = GetComponent<Equipment>();
         jobManager = GetComponent<JobManager>();
-        Debug.Log(UnitName + " Job: " + jobManager.selectedJob.jobName);
-        Debug.Log(UnitName + " Job Desc: " + jobManager.selectedJob.jobDescription);
-
-        totalHealth = HealthMAX * jobManager.selectedJob.HealthMaxMultip;
-        Mathf.Round(totalHealth);
-        Debug.Log(UnitName + " Health: " + totalHealth);
-
-        totalMana = ManaMAX * jobManager.selectedJob.ManaMaxMultip;
-        Mathf.Round(totalMana);
-        Debug.Log(UnitName + " Mana: " + totalMana);
-
-        totalStrength = Strength * jobManager.selectedJob.StrengthMultip;
-        Mathf.Round(totalStrength);
-        Debug.Log(UnitName + " Strength: " + totalStrength);
-
-        totalVitality = Vitality * jobManager.selectedJob.VitalityMultip;
-        Mathf.Round(totalVitality);
-        Debug.Log(UnitName + " Vitality: " + totalVitality);
-
-        totalAgility = Agility * jobManager.selectedJob.AgilityMultip;
-        Mathf.Round(totalAgility);
-        Debug.Log(UnitName + " Agility: " + totalAgility);
-
     }
 
     void Start()
@@ -145,9 +113,15 @@ public class UnitStats : MonoBehaviour{
     {
         return Initiative.CompareTo(((UnitStats)otherStats).Initiative);
     }*/
-
-    public bool isDead()
+    public void ReceiveDamage(float damage)
     {
-        return this.dead;
+
+    }
+
+
+
+    public bool isDown()
+    {
+        return this.KO;
     }
 }

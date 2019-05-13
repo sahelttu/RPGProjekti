@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-[CreateAssetMenu(menuName = "Job/New Job", fileName = "Job.asset")]
+[CreateAssetMenu(menuName = "Job/New job", fileName = "Job.asset")]
 public class CharacterJob : JobSO {
 
-    public float HealthMaxMultip;
-    public float ManaMaxMultip;
-    public float StrengthMultip;
-    public float VitalityMultip;
-    public float AgilityMultip;
+    public int JobLV;
+    public int JobEXP;
+
+    //JOB MULTIPLIERIT
+    public float JobHP;
+    public float JobMP;
+    public float JobSTR;
+    public float JobVIT;
+    public float JobAGI;
 
     public Ability[] JobAbilities;
 

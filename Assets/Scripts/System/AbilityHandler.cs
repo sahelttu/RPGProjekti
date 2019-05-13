@@ -29,11 +29,11 @@ public class AbilityHandler : MonoBehaviour {
         }
     }
 
-    void ReplacePanelSlots()
+   /* void ReplacePanelSlots()
     {
         activeBar = playerStats.AbilityBar;
         UpdatePanelSlots();
-    }
+    }*/
 
     void Awake()
     {
@@ -42,7 +42,7 @@ public class AbilityHandler : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        ReplacePanelSlots();
+       // ReplacePanelSlots();
 		
 	}
 	

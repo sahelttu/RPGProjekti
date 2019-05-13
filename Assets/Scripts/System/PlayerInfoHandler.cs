@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerInfoHandler : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject player;
+    public UnitStats playerStats;
+
+    //Job levels
+    public int knightLVL;
+    public int warriorLVL;
+    public int mageLVL;
+
+
 }

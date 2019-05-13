@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,11 +13,13 @@ MonoBehaviour:
   m_Name: Knight
   m_EditorClassIdentifier: 
   jobName: Knight
-  jobDescription: Strong and armored.
+  jobDescription: 
   jobIcon: {fileID: 0}
-  HealthMaxMultip: 2
-  ManaMaxMultip: 1
-  StrengthMultip: 1.5
-  VitalityMultip: 2
-  AgilityMultip: 0.5
+  JobLV: 0
+  JobEXP: 0
+  JobHP: 1.25
+  JobMP: 1.25
+  JobSTR: 1.25
+  JobVIT: 2
+  JobAGI: 0.5
   JobAbilities: []
